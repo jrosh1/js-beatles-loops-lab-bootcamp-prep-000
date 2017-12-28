@@ -20,7 +20,7 @@ function iLoveTheBeatles(number){
   var ray = []
   do{
     ray.push("I love the Beatles!")
-    console.log(++number)
-  } while (number >= 15)
+    console.log(--number)
+  } while (number > 15)
   return ray
 }
